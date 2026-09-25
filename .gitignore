@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+.python-version
+
+# Environment / Secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+
+# Data & Vector Stores
+data/
+chroma_db/
+*.db
+*.sqlite3
+*.pdf
+*.csv
+*.xlsx
+!sample_data/*.pdf
+
+# Uploads / Runtime Artifacts
+uploads/
+logs/
+*.log
+tmp/
+.cache/
+
+# LangChain / LangSmith
+.langchain/
+.langsmith/
+traces/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Docker
+*.pid
+docker-compose.override.yml
